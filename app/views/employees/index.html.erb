@@ -1,0 +1,4 @@
+<h1>This is the index page</h1>
+<% @employees.each do |employee| %>
+<li><%= link_to employee.to_s, employee %></li>
+<% end %>
